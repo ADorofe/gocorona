@@ -581,8 +581,16 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
-  margin: 0 0 0 48px;
+  margin: 0;
   position: relative;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .stay-safe__app {
+    text-align: initial;
+    margin: 0 0 0 48px;
+  }
 }
 
 .stay-safe__content {
@@ -609,11 +617,18 @@ body {
 }
 
 .app {
-  width: 337px;
   text-align: center;
   position: relative;
   display: inline-block;
-  padding: 56px 38px 27px 71px;
+  width: 300px;
+  padding: 56px 38px 27px 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    width: 337px;
+    padding: 56px 38px 27px 71px;
+  }
 }
 
 .app__img {
@@ -662,6 +677,12 @@ body {
 
 .app__item--bottom {
   bottom: 0;
-  left: 33px;
+  left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .app__item--bottom {
+    left: 33px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

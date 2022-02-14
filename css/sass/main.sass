@@ -338,8 +338,12 @@ body
             
     &__app
         flex: 0 1 50%
-        margin: 0 0 0 48px
+        margin: 0
         position: relative
+        text-align: center
+        @media screen and ( min-width: 768px)
+            text-align: initial
+            margin: 0 0 0 48px
         
     &__content
         flex: 0 1 50%
@@ -353,11 +357,14 @@ body
             text-align: initial
 
 .app
-    width: 337px
     text-align: center
     position: relative
     display: inline-block
-    padding: 56px 38px 27px 71px
+    width: 300px
+    padding: 56px 38px 27px 44px
+    @media screen and ( min-width: 768px)
+        width: 337px
+        padding: 56px 38px 27px 71px
 
     &__img 
         position: relative
@@ -395,5 +402,7 @@ body
             right: 0
         &--bottom
             bottom: 0
-            left: 33px
+            left: 15px
+            @media screen and ( min-width: 768px)
+                left: 33px
             
