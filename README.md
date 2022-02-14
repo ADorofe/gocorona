@@ -1,2 +1,2 @@
 # TEST LAYOUT
-![This is an image](https://adorofe.github.io/gocorona/screenshot.jpg)
+![This is an image](https://github.com/ADorofe/gocorona/blob/main/screenshot.png?raw=true)
