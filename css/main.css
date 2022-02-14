@@ -685,4 +685,268 @@ body {
     left: 33px;
   }
 }
+
+.talk-experts {
+  background-color: #FAFBFD;
+  padding: 35px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .talk-experts {
+    padding: 53px 28px 116px 40px;
+  }
+}
+
+.talk-experts__container {
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.talk-experts__counter {
+  position: relative;
+  margin: 0 auto;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 50px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .talk-experts__counter {
+    width: auto;
+    padding: 50px 75px 32px 31px;
+    margin-bottom: 46px;
+  }
+}
+
+.talk-experts__square-counter {
+  position: absolute;
+  background-color: #EC5863;
+  border-radius: 30px;
+}
+
+.talk-experts__square-counter--left {
+  width: 66px;
+  height: 66px;
+  border-radius: 16px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  left: 13px;
+  bottom: 13px;
+}
+
+.talk-experts__square-counter--top {
+  width: 97px;
+  height: 97px;
+  -webkit-transform: rotate(105deg);
+          transform: rotate(105deg);
+  top: 13px;
+  left: 50%;
+}
+
+@media screen and (min-width: 576px) {
+  .talk-experts__square-counter--top {
+    left: 255px;
+  }
+}
+
+.talk-experts__square-counter--right {
+  width: 127px;
+  height: 127px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  right: 20px;
+  bottom: 23px;
+}
+
+.talk-experts__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .talk-experts__content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 47%;
+            flex: 0 1 47%;
+    padding: 0 10px 0 0;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .talk-experts__content {
+    padding: 0 60px 0 0;
+  }
+}
+
+.talk-experts__block-text {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .talk-experts__block-text {
+    text-align: left;
+  }
+}
+
+.talk-experts__video {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .talk-experts__video {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 53%;
+            flex: 0 1 53%;
+    text-align: initial;
+  }
+}
+
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+          box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+  border-radius: 16px;
+  position: relative;
+  z-index: 3;
+  padding: 28px;
+  width: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .counter {
+    width: 654px;
+    padding: 28px 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.counter__item {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.14em;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #EC5863;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .counter__item {
+    padding: 0;
+  }
+}
+
+.counter__item:last-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.counter__caption {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.37em;
+  text-transform: uppercase;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000;
+  margin-top: 5px;
+}
+
+.video-block {
+  padding: 24px;
+  background-color: #fff;
+  display: inline-block;
+  -webkit-box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+          box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  position: relative;
+}
+
+@media screen and (min-width: 576px) {
+  .video-block {
+    padding: 24px 94px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .video-block {
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .video-block {
+    padding: 24px 64px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .video-block {
+    padding: 24px 94px;
+  }
+}
+
+.video-block__play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+  cursor: pointer;
+}
+
+.video-block__play:hover {
+  width: 65px;
+  height: 65px;
+}
+
+.video-block__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 /*# sourceMappingURL=main.css.map */
